@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment-5-js</title>g
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+   <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;1,200;1,400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/calculate.js"></script>
+  </head>
+  <body>
+    <!-- Nav starts here --> 
+
+   <nav class="navbar bg-primary-subtle nav-w mt-4 m-5 p-2 border rounded">
+        <div class="container-fluid">
+          <a class="navbar-brand">interactive <br>Geomatry Genius</a>
+          <a href="blog.html" target="_blank">
+            <button type="button" class="btn btn-primary">Blog</button>
+          </a>
+          </form>
+        </div>
+      </nav> 
+      <!-- Nav ends here -->
+
+
+
+
+      <!-- main section starts here -->
+      
+
+      <main class="main-section">
+      <div class="main">
+        <!-- Triangle starts here -->
+
+        <div class="section" id="triangleSection">
+          <img class="img" src="images/triangle.png" alt="">
+          <h4 class="title">Triangle</h4>
+          <span class="fs-6 area">Area (A) = 0.5 ×
+            b ×
+            h</span><br>
+           <input class="b" type="text" id="baseInput" placeholder="b"> cm <input class="b" type="text" id="heightInput" placeholder="h"> cm
+          <button class="button bg-primary text-white" onclick="calculateTriangleArea()">Calculate</button>
+        </div>
+        <!-- Traingle ends here -->
+
+         <!-- Rectangle starts here -->
+        <div class="section">
+          <img class="img" src="images/rectangle.png" alt="">
+          <h4 class="title">Rectangle</h4>
+          <span class="fs-6 area-1">Area (A) = w ×
+            I</span><br>
+          <input class="b" type="text" id="widthinput" placeholder="w"> cm <input class="b" type="text" id="lengthinput" placeholder="I"> cm
+          <button class="button bg-primary text-white button-2" onclick="calculateRectangleArea()">Calculate</button>
+        </div>
+        <!-- Rectangle ends here -->
+
+       <!-- Parallelogram starts here -->
+      <div class="section">
+        <img class="img" src="images/parallelogram.png" alt="">
+        <h4 class="title-4">Parallelogram</h4>
+        <span class="fs-6 area-1">Area (A) = b ×
+          h</span> <br> <span class="span-b">b = 10cm , h = 12cm</span>
+        <button class="button-3 bg-primary text-white">Calculate</button>
+      </div>
+      <!-- Parallelogram ends here -->
+
+      <!-- calculate starts here -->
+      <div class="border-calculate">
+        <h6 class="solution">Area Calculation</h6>
+        <div id="result"></div>
+        <div id="rectangleResult"></div>
+      </div>
+      <!-- Calculate ends here -->
+    </div>
+
+
+
+      <div class="main">
+        <!-- Rhombus starts here -->
+        <div class="section">
+          <img class="img" src="images/rhombus.png" alt="">
+          <h4 class="title-2">Rhombus</h4>
+          <span class="fs-6 area-2">Area (A) = 0.5 ×
+            d1 ×
+            d2</span> <br> <span class="span-b">d1 = 16cm , d2 = 8cm</span>
+          <button class="button-4 bg-primary text-white">Calculate</button>
+        </div>
+        <!-- Rhombus ends here -->
+
+        <!-- Pentagon starts here -->
+        <div class="section">
+          <img class="img-2" src="images/pentagon.png" alt="">
+          <h4 class="title">Pentagon</h4>
+          <span class="fs-6 area-2">Area (A) = 0.5 ×
+            p ×
+            b</span> <br> <span class="span-b">d1 = 6cm , d2 = 10cm</span>
+          <button class="button-5 bg-primary text-white">Calculate</button>
+        </div>
+        <!-- Pentagon ends here -->
+
+        <!-- Ellipse starts here -->
+        <div class="section">
+          <img class="img" src="images/ellipse.png" alt="">
+          <h4 class="title-3">Ellips</h4>
+          <span class="fs-6 area-2">Area (A) = πab</span> <br> <span class="span-b">a = 10cm , b= 4cm</span>
+          <button class="button-6 bg-primary text-white">Calculate</button>
+        </div>
+        <!-- Ellipse ends here -->
+      </div>
+    </main>
+    <!-- main section ends here -->
+
+
+    <script src="blog.js"></script>
+
+    
+    <!-- Bootstrap link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
